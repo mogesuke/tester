@@ -1,0 +1,51 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h4.title {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+td.stationSelected {
+  color: blue;
+}
+
+.userInfo {
+  float: right;
+  margin-top: 8px;
+}
+.userInfo span {
+  color: white;
+}
+
+.logo {
+  margin:10px;
+} 
+
+.logoTitle {
+  font-weight: bold;
+  font-size: large;
+  vertical-align:middle;
+}
+
+#cover {
+  background-color: #cccccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  opacity: 0.9;	
+}
+
+#demoTestArea {
+  background-color: #FFFFFF;
+  position: absolute;
+  z-index: 2;
+  margin-left: auto;
+  padding-left: 15px;
+  width: 90%;
+}
